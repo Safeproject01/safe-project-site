@@ -10,6 +10,7 @@ button{
     border-radius: 100px;
     margin:10px;
     border-color:#047efc;
+    transition: width ease-in-out 100ms
 }
 
 button:hover{
