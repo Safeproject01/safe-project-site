@@ -13,6 +13,8 @@ import { HomeComponent } from './views/home/home.component';
 import { ToolsComponent } from './views/tools/tools.component';
 import { JoinUsComponent } from './components/template/join-us/join-us.component';
 import { MatButtonModule } from '@angular/material/button';
+import { MediaComponent } from './views/media/media.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { MatButtonModule } from '@angular/material/button';
     HomeComponent,
     ToolsComponent,
     JoinUsComponent,
+    MediaComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
